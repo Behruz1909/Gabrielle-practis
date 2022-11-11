@@ -1,0 +1,58 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box{
+    display: flex;
+    border: solid 1px antiquewhite;
+    border-radius: 5px;
+    box-shadow: black 4px 5px 4px 5px;
+}
+.box :hover{
+    background-color: antiquewhite;
+}
+.user{
+    padding-left: 30px;
+}
+.title{
+    color: burlywood;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.box-title{
+    width: 150px;
+    font-size: 20px;
+}
+.paragraph{
+    text-transform: capitalize;
+    width: 300px;
+}
+.paragraph-header{
+    color: green;
+    font-size: 30px;
+    font-weight: 900;
+}
+.paragraph-box{
+    margin-left: 20px;
+}
+
+.box-two {
+    margin-top: 30px;
+}
+
+.link-style{
+    display: inline-block;
+    border: solid 10px green;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
